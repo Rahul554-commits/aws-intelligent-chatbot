@@ -38,7 +38,7 @@ aws_intelligent_chatbot/
 ## 📊 Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     User([User]) --> Lex["Amazon Lex"]
     Lex --> Lambda["AWS Lambda - index.py"]
     Lambda --> APIGW["Amazon API Gateway (/chat endpoint)"]
@@ -46,6 +46,7 @@ flowchart LR
     Lex --> IAM["IAM Roles (Permissions)"]
     Lambda --> IAM
     APIGW --> IAM
+
 
 
 ---
