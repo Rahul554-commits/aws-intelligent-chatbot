@@ -37,7 +37,7 @@ aws_intelligent_chatbot/
 
 ## 📊 Architecture
 
-![Architecture Diagram](https://github.com/Rahul554-commits/aws_intelligent_chatbot/raw/main/architecture_diagram.png)
+![Architecture Diagram](https://raw.githubusercontent.com/Rahul554-commits/aws-intelligent-chatbot/f9a8e8c3cbd50d8276f241e7c4c9360c5a1927a0/architecture_diagram.png)
 
 
 
