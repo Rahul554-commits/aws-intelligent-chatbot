@@ -47,9 +47,7 @@ flowchart TD
     Lambda --> IAM
     APIGW --> IAM
 
-
-
----
+------
 
 ## 🔧 Setup Instructions
 
