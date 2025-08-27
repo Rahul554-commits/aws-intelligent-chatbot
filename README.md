@@ -41,6 +41,7 @@ aws_intelligent_chatbot/
 ![Architecture Diagram](https://raw.githubusercontent.com/Rahul554-commits/aws_intelligent_chatbot/main/architecture_diagram.png)
 
 
+
 ------
 
 ## 🔧 Setup Instructions
