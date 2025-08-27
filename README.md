@@ -37,15 +37,9 @@ aws_intelligent_chatbot/
 
 ## 📊 Architecture
 
-```mermaid
-flowchart TD
-    User([User]) --> Lex[Amazon Lex]
-    Lex --> Lambda[AWS Lambda]
-    Lambda --> APIGW[Amazon API Gateway]
-    APIGW --> User
-    Lex --> IAM[IAM Roles (Permissions)]
-    Lambda --> IAM
-    APIGW --> IAM
+## 📊 Architecture
+![Architecture Diagram](https://raw.githubusercontent.com/Rahul554-commits/aws_intelligent_chatbot/main/architecture_diagram.png)
+
 
 ------
 
