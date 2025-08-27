@@ -39,23 +39,13 @@ aws_intelligent_chatbot/
 
 ```mermaid
 flowchart TD
-    User([User]) --> Lex["Amazon Lex"]
-    Lex --> Lambda["AWS Lambda"]
-    Lambda --> APIGW["Amazon API Gateway"]
+    User([User]) --> Lex[Amazon Lex]
+    Lex --> Lambda[AWS Lambda]
+    Lambda --> APIGW[Amazon API Gateway]
     APIGW --> User
-    Lex --> IAM["IAM Roles (Permissions)"]
+    Lex --> IAM[IAM Roles (Permissions)]
     Lambda --> IAM
     APIGW --> IAM
-
-    %% Define Styles
-    classDef aws fill=#FF9900,stroke=#232F3E,color=white,stroke-width=2px;
-    classDef user fill=#4CAF50,stroke=#1B5E20,color=white,stroke-width=2px;
-    classDef sec fill=#232F3E,stroke=#FF9900,color=white,stroke-width=2px;
-
-    %% Apply Styles
-    class Lex,Lambda,APIGW aws;
-    class User user;
-    class IAM sec;
 
 ------
 
